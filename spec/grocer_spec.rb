@@ -2,16 +2,16 @@ describe "Grocer" do
   # let() is like a global variable for tests
   let(:items) do
     [
-      {:item => "AVOCADO", :price => 3.00, :clearance => true},
-      {:item => "KALE", :price => 3.00, :clearance => false},
-      {:item => "BLACK_BEANS", :price => 2.50, :clearance => false},
-      {:item => "ALMONDS", :price => 9.00, :clearance => false},
-      {:item => "TEMPEH", :price => 3.00, :clearance => true},
-      {:item => "CHEESE", :price => 6.50, :clearance => false},
-      {:item => "BEER", :price => 13.00, :clearance => false},
-      {:item => "PEANUTBUTTER", :price => 3.00, :clearance => true},
-      {:item => "BEETS", :price => 2.50, :clearance => false},
-      {:item => "SOY MILK", :price => 4.50, :clearance => true}
+      {:item => "AVOCADO", :price => 3.00, :clearance => true, :count => 1},
+      {:item => "KALE", :price => 3.00, :clearance => false, :count => 1},
+      {:item => "BLACK_BEANS", :price => 2.50, :clearance => false, :count => 1},
+      {:item => "ALMONDS", :price => 9.00, :clearance => false, :count => 1},
+      {:item => "TEMPEH", :price => 3.00, :clearance => true, :count => 1},
+      {:item => "CHEESE", :price => 6.50, :clearance => false, :count => 1},
+      {:item => "BEER", :price => 13.00, :clearance => false, :count => 1},
+      {:item => "PEANUTBUTTER", :price => 3.00, :clearance => true, :count => 1},
+      {:item => "BEETS", :price => 2.50, :clearance => false, :count => 1},
+      {:item => "SOY MILK", :price => 4.50, :clearance => true, :count => 1}
     ]
   end
 

@@ -243,7 +243,7 @@ describe "Grocer" do
         clearance_applied_cart = apply_clearance(coupon_applied_cart)
 
 
-        expect(checkout(clearance_applied_cart, [])).to eq(2.50)
+        expect(checkout(cart, [])).to eq(2.50)
       end
 
       it "calls on #apply_clearance after calling on #apply_coupons with multiple items and one coupon" do

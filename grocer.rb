@@ -71,6 +71,5 @@ def checkout(array, coupons)
       total += item[:price]*item[:count]
     end
   end
-  binding.pry
   total > 100 ? total * 0.9 : total
 end
